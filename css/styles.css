@@ -3,7 +3,10 @@
 	font-family: open_sans;
 }
 
+body {
+	padding-top: 90px;
 
+}
 html {
 	font-family: 'Pacifico', cursive;
 	font-family: 'Abel', sans-serif;
@@ -11,6 +14,10 @@ html {
 b {
 	font-weight: 900;
 }
+
+/**/
+
+
 
 /*HEADER*/
 
@@ -20,6 +27,7 @@ b {
 	position: fixed;
 	background-color: #633526;
 	z-index: 999;
+	top: 0;
 }
 
 .header-frame__limit {
@@ -82,9 +90,9 @@ b {
 
 /*home-frame1*/
 
-.home-frame1 {
+.home-frame1-bg {
 	width: 100%;
-    height: calc(100vh - 0px);
+    height:100vh;
     background-image: url('../images/Homepage/Banner.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -156,7 +164,7 @@ b {
 
 .home-frame2-__img-right {
 	display: block;
-	float: right;
+	text-align: right;
 
 	
 }
@@ -167,7 +175,7 @@ b {
 }
 
 .home-frame2__slider-img {
-	width: 49%;
+	width: 50%;
 	display: inline-block;
 }
 
@@ -176,7 +184,7 @@ b {
 }
 
 .home-frame2__slider-img-description-container {
-	width: 49%;
+	width: 50%;
 	display: inline-block;
 	vertical-align: top;
 	text-align: left;
@@ -200,6 +208,26 @@ b {
 }
 
 
+
+.home-frame2__slider .slick-next:before,
+.home-frame2__slider .slick-prev:before {
+   display: none;
+}
+
+.home-frame2__slider .slick-prev > span, 
+.home-frame2__slider .slick-next > span {
+   font-size: 45px;
+   color: #633528;
+}
+
+.slick-next{
+   right: 0px;
+}
+
+.slick-prev{
+   left: 10px;
+}
+
 /*home-frame3*/
 
 .home-frame3 {
@@ -208,16 +236,14 @@ b {
 
 .home-frame3__left {
 	width: 50%;
-	height: 500px;
 	display: inline-block;
 	line-height: 1;
 
 }
 
 .home-frame3__top-left {
-	display: inline-block;
 	width: 100%;
-	height: 50%;
+	height: 50vh;
 	text-align: center;
 	background-color: #ffc116;
 }
@@ -232,7 +258,7 @@ b {
 	font-size: 30px;
 	font-weight: lighter;
 	padding: 15px;
-	margin-top: 20px;
+	margin-top: 70px;
 
 }
 
@@ -266,9 +292,8 @@ b {
 
 
 .home-frame3__bottom-left {
-	display: inline-block;
 	width: 100%;
-	height: 50%;
+	height: 50vh;
 	padding: 0;
 	margin: 0;
 	line-height: 0;
@@ -277,7 +302,7 @@ b {
 
 .home-frame3__bottom-left-images1 {
 	position: relative;
-	height: 100%;
+	height: 50vh;
 	width: 50%;
 	margin: 0;
 	border: 0;
@@ -297,14 +322,11 @@ b {
 
 .home-frame3__right {
 	width: 50%;
-	height: 500px;
-	display: inline-block;
-	vertical-align: top;
 }
 
 .home-frame3__top-right {
 	width: 100%;
-	height: 50%;
+	height: 50vh;
 	display: block;
 }
 
@@ -328,7 +350,7 @@ b {
 
 .home-frame3__bottom-right {
 	width: 100%;
-	height: 50%;
+	height: 50vh;
 	display: block;
 }
 
@@ -500,23 +522,60 @@ b {
 
 /*footer*/
 
-.home-footer {
+.footer {
 	background-color: #ffc116;
 	width: 100%;
-	height: 100px;
 }
 
-.home-footer__sub {
+.footer__sub {
 	background-color: #894619;
-	vertical-align: bottom;
+	padding: 5px;
 }
 
-.home-footer__sub-style {
+.footer__sub-style {
 	color: white;
 	text-align: center;
 }
 
-.home-footer-container {
-	width: 100%;
-	height: 100%;
+.footer__content {
+	line-height: 2;
+}
+
+.footer__content-logo {
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+}
+
+.footer__content-logo-delicia {
+	transform: translateY(25px);
+}
+
+.footer__content-logo-delicia-sub {
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #894619;
+	transform: translateX(25px);
+}
+
+.footer__content-link {
+	width: 25%;
+}
+
+.footer-menu-links {
+	text-decoration: none;
+	color: #894619; 
+	font-family: arial;
+}
+
+.footer__content-contact {
+	width: 25%;
+	color: #894619; 
+	font-family: arial;
+}
+
+.footer__content-address-logo {
+	color: #894619;
+	text-align: center;
 }
