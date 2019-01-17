@@ -579,3 +579,44 @@ b {
 	color: #894619;
 	text-align: center;
 }
+
+/*Delicia Goodness*/
+
+.goodness__banner {
+	width: 100%;
+    height:90vh;
+    background-image: url('../images/Delicia Goodness/Banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.goodness-content__description {
+	margin: 150px;
+}
+
+
+.goodness-content-text {
+	font-family: arial;
+	font-size: 18px;
+	text-align: center;
+}
+
+.goodness-content__imgs {
+	position: relative;
+	height: 400px;
+	width: 400px;
+	margin: 0;
+	border: 0;
+}
+
+.goodness-content__img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}

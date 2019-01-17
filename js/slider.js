@@ -6,5 +6,7 @@ $(document).ready(function(){
 	arrows: true,
 	dots: false
 	});
+	$('.slick-prev').html('<span class="ion-ios-arrow-left"></span>');
+	$('.slick-next').html('<span class="ion-ios-arrow-right"></span>');
 });
    
