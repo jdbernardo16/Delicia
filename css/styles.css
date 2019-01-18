@@ -593,22 +593,23 @@ b {
 }
 
 .goodness-content__description {
-	margin: 150px;
+	margin: 100px;
 }
-
 
 .goodness-content-text {
 	font-family: arial;
-	font-size: 18px;
+	font-size: 21px;
 	text-align: center;
+	position: relative;
+	line-height: 1.5;
 }
+
+
 
 .goodness-content__imgs {
 	position: relative;
 	height: 400px;
 	width: 400px;
-	margin: 0;
-	border: 0;
 }
 
 .goodness-content__img {
@@ -620,3 +621,414 @@ b {
 	background-size: cover;
 	background-position: center;
 }
+
+
+
+.goodness-content__hazel {
+	padding-bottom: 100px;
+	margin-left: 100px;
+}
+
+.goodness-content__hazel-cont {
+	margin-left: 50px;
+}
+
+.goodness-content__hazel-cont-head {
+	font-family: Arial;
+	font-size: 35px;
+	color: #633526;
+}
+
+.goodness-content__hazel-cont-line {
+	border: 5px solid #ffc116;
+	width: 150px;
+	margin: 30px 50px;
+}
+
+.goodness-content__hazel-cont-des {
+	font-family: arial;
+	font-size: 24px;
+	line-height: 1.5;
+	margin: 30px;
+}
+
+.goodness-content__milk {
+	padding-bottom: 100px;
+	margin-left: 100px;
+}
+
+.goodness-content__milk-cont-head {
+	font-family: Arial;
+	font-size: 35px;
+	color: #633526;
+	text-align: right;
+}
+
+.goodness-content__milk-cont-line {
+	border: 5px solid #ffc116;
+	width: 150px;
+	margin-top: 20px;
+	margin-left: 220px; 
+}
+
+.goodness-content__milk-cont-des {
+	font-family: arial;
+	font-size: 24px;
+	line-height: 1.5;
+	margin: 30px;
+}
+
+.goodness-content__imgs2 {
+	position: relative;
+	height: 400px;
+	width: 470px;
+	margin-left: 100px;
+}
+
+/*Delicia Treats*/
+
+.treats__banner {
+	width: 100%;
+    height: 60vh;
+    background-image: url('../images/Delicia Treats/deliciatreatsBanner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.treats1 {
+	width: 100%;
+}
+
+.treats__cont {
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 150px;
+}
+
+.treats__cont-line {
+	border: 3px solid #633526;
+	width: 150px;
+	margin-left: 250px;
+}
+
+.treats__cont-head {
+	font-family: pacifico;
+	font-size: 50px;
+	color: #633526;
+	margin: 50px;
+}
+
+.treats__cont-des {
+	font-family: arial;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.treats__cont-more {
+	margin:50px;
+}
+
+.treats1__cont-more-button {
+	border: 3px solid #633526;
+	font-family: arial;
+	text-align: center;
+	font-size: 15px;
+	color: #633526;
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, 0);
+	margin: 20px;
+}
+
+.treats1__img {
+	margin: 20px 0px;
+	width: 50%;
+	display: inline-block;
+}
+
+.treats1__img-left {
+	display: inline-block;
+}
+
+.treats1__img-t {
+	display: block;
+	background:  
+    linear-gradient(
+      rgba(100, 27, 10, 0.45), 
+      rgba(100, 27, 10, 0.45)
+    ),
+    url('../images/Delicia Treats/dtFrame 2/img1.png');
+	width: 300px;
+	height: 245px; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	vertical-align: top;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.treats1__img-b {
+	display: block;
+    background-image: url('../images/Delicia Treats/dtFrame 2/img2.png');
+	width: 300px;
+	height: 245px; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-right: 10px;
+}
+
+.treats1__img-right {
+	display: inline-block;
+    background-image: url('../images/Delicia Treats/dtFrame 2/img3.png');
+    width: 300px;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.treats2 {
+	width: 100%;
+	background-color: #ffc116;
+}
+
+
+
+.treats2__img {
+	width: 65%;
+
+	display: inline-block;
+}
+
+.treats2__cont {
+	width: 35%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 150px;
+
+}
+
+.treats2__cont-line {
+	border: 3px solid #633526;
+	width: 150px;
+	margin-left: 150px;
+}
+
+
+
+.reats2__img-t {
+	display: block;
+}
+
+.treats2__img-t-l {
+	display: inline-block;
+    background-image: url('../images/Delicia Treats/dtFrame 3/img1.png');
+    width: 500px;
+	height: 245px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+.treats2__img-t-r {
+	display: inline-block;
+    background-image: url('../images/Delicia Treats/dtFrame 3/img2.png');
+    width: 245px;
+	height: 245px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.treats2__img-b {
+	display: block;
+}
+
+.treats2__img-b-l {
+	display: inline-block;
+    background-image: url('../images/Delicia Treats/dtFrame 3/img3.png');
+    width: 245px;
+	height: 245px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.treats2__img-b-r {
+	display: inline-block;
+    background:  
+    linear-gradient(
+      rgba(100, 27, 10, 0.45), 
+      rgba(100, 27, 10, 0.45)
+    ),
+    url('../images/Delicia Treats/dtFrame 3/img4.png');
+    width: 500px;
+	height: 245px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.treats2__cont-more-button {
+	border: 3px solid white;
+	font-family: arial;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, 0);
+	margin: 20px;
+}
+
+
+.treats3__img {
+	display: inline-block;
+	width: 60%;
+}
+
+.treats__img-t {
+	display: block;
+}
+
+.treats3__img-t-l {
+	display: inline-block;
+    background-image: url('../images/Delicia Treats/dtFrame 4/img1.png');
+    width: 400px;
+	height: 245px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.treats3__img-t-r {
+	display: inline-block;
+    background-image: url('../images/Delicia Treats/dtFrame 4/img2.png');
+    width: 280px;
+	height: 245px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.treats3__img-b-l {
+	display: inline-block;
+    background-image: url('../images/Delicia Treats/dtFrame 4/img3.png');
+    width: 400px;
+	height: 245px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+.treats3__img-b-r {
+	display: inline-block;
+    background:  
+    linear-gradient(
+      rgba(100, 27, 10, 0.45), 
+      rgba(100, 27, 10, 0.45)
+    ),
+    url('../images/Delicia Treats/dtFrame 4/img4.png');
+    width: 280px;
+	height: 245px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+
+.treats3__cont {
+	width: 40%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 150px;
+}
+
+.treats3__cont-line {
+	border: 3px solid #633526;
+	width: 150px;
+	margin-left: 185px;
+}
+
+.treats4 {
+	background-color: #ffc116
+}
+
+.treats4__img {
+	width: 65%;
+	display: inline-block;
+}
+
+.treat4__img-l {
+	display: inline-block;
+    background-image: url('../images/Delicia Treats/dtFrame 5/img1.png');
+    width: 350px;
+	height: 550px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+
+}
+
+.treat4__img-r {
+	display: inline-block;
+}
+
+.treat4__img-r-t {
+	display: block;
+    background-image: url('../images/Delicia Treats/dtFrame 5/img2.png');
+    width: 400px;
+	height: 270px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+}
+
+.treat4__img-r-b {
+	display: block;
+    background:  
+    linear-gradient(
+      rgba(100, 27, 10, 0.45), 
+      rgba(100, 27, 10, 0.45)
+    ),
+    url('../images/Delicia Treats/dtFrame 5/img3.png');
+    width: 400px;
+	height: 270px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 20px;
+
+}
+
+.treats4__cont {
+	width: 35%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 100px;
+
+}
+
+

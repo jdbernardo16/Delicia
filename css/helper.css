@@ -36,5 +36,5 @@
 }
 
 .inlineBlock-parent.align-b > * {
-	vertical-align: top;
+	vertical-align: bottom;
 }
